@@ -13,7 +13,8 @@ buttonChangeName.addEventListener("click", () => {
 });
 
 buttonAddtoList.addEventListener("click", () => {
-    const listValue = prompt('Insert list element');
+    //const listValue = prompt('Insert list element');
+    const listValue = document.getElementById('new-list-item').value;
     addToList(listValue);
 });
 
