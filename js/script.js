@@ -12,5 +12,7 @@ buttonChangeName.addEventListener("click", () => {
 });
 
 buttonAddtoList.addEventListener("click", () => {
+    const listValue = prompt('Insert list element');
     ourList.appendChild(childListElement);
+    childListElement.textContent = listValue;
 })
